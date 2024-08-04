@@ -14,21 +14,21 @@ const Footer = () => {
           <YouTubeIcon />
         </div>
         <div className="footer_data">
-          <div>
+          <div className="div1">
             <ul>
               <li>Audio Description</li>
               <li>Investor Relations</li>
               <li>Legal Notice</li>
             </ul>
           </div>
-          <div>
+          <div className="div2">
             <ul>
               <li>Help Center</li>
               <li>Jobs</li>
               <li>Cookie Preferences</li>
             </ul>
           </div>
-          <div>
+          <div className="div3">
             <ul>
               <li>Gift Cards</li>
               <li>Terms of Use</li>

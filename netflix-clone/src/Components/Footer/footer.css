@@ -3,6 +3,7 @@
 	color: grey;
     display: flex;
     justify-content: center;
+    margin-top: 2%;
 }
 .footer_inner_container{
     width: 70%;
@@ -44,4 +45,34 @@
 .copy-write{
     font-size: 12px;
     margin-bottom:10px;
+}
+
+@media (max-width: 768px) {
+    .footer_outer_container{
+
+        .footer_icons{
+            width: 40%;
+        }
+
+        
+
+      .footer_data, .service_code, .copy-write {
+            width: 100%;
+            margin-bottom: 20px; /* Add spacing between divs */
+          }
+    }
+
+    .footer_data {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: space-between;
+      }
+      
+      .footer_data > div {
+        width: calc(25% - 20px); /* Adjust width and margin as needed */
+        box-sizing: border-box;
+      }
+      
+
+    
 }
